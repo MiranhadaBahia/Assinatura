@@ -5,7 +5,28 @@
     --cor-fundo: rgb(199, 73, 224) ;
 }
 body{
-     background-color:var(--cor-fundo) ;
-     
+     background-color:var(--cor-fundo) ;    
 
+}
+.principal{
+    background-image: url ("background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50%, 50%;
+
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-principal)
+    display:block;
+}
+.container__botao2{
+    background-color:transparent;
+    border: 2px solid white;
 }
